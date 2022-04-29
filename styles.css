@@ -5,7 +5,10 @@ h1, h2, h3, p, ol, ul {
 
 * { box-sizing:border-box; }
 
-img { max-width:100%; }
+img {
+    max-width: 100%;
+    border-radius: 81px;
+}
 
 /************* End CSS RESETS **************/
 
@@ -56,16 +59,22 @@ footer {
 h1, h2, h3 {
 	font-family: 'Bitter', serif;
 	margin-bottom:.5em;
+	color: #007305;
 }
 
 h1 {
 	font-size:150%;
 	text-transform:uppercase;
+	color: #262626;
 }
 
 header h1 {
 	font-size:300%;
 	margin-bottom:.1em;
+}
+
+img {
+	
 }
 
 p {
@@ -82,12 +91,17 @@ li {
 	margin-bottom:.5em;
 }
 
+#skills {
+	font-style: italic;
+}
+
 a {
 	text-decoration:none;
-	color:#045685;
+	color:#3B62AD;
 }
 
 a:hover {
+	color: #007305;
 	text-decoration:underline;
 }
 
